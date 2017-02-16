@@ -1,7 +1,7 @@
 language: go
 
 go:
-- '1.7x'
+- '1.7.5'
 env:
     - GIMME_OS=darwin GIMME_ARCH=amd64
 
