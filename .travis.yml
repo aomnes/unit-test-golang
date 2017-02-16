@@ -1,0 +1,12 @@
+language: go
+
+go:
+- '1.75'
+env:
+    - GIMME_OS=darwin GIMME_ARCH=amd64
+
+install:
+    - go get github.com/golang/example/stringutil
+
+script:
+    - go test -v fichier_test.go
